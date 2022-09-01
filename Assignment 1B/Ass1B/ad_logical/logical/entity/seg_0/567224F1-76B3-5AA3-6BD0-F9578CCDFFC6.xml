@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="567224F1-76B3-5AA3-6BD0-F9578CCDFFC6" name="DRUG">
+<createdBy>dirbashi</createdBy>
+<createdTime>2021-04-25 11:06:51 UTC</createdTime>
+<ownerDesignName>ad_logical</ownerDesignName>
+<engineerTo>
+<item key="81D3E873-742D-0C0C-A168-7541869E6A17" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="drug_id" id="04F2B5D8-766D-F0FF-E222-D34D439AFFEA">
+<createdBy>dirbashi</createdBy>
+<createdTime>2021-04-25 11:06:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[drug id]]></commentInRDBMS>
+<ownerDesignName>ad_logical</ownerDesignName>
+<engineerTo>
+<item key="81D3E873-742D-0C0C-A168-7541869E6A17" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="drug_name" id="04C67F80-45DC-585B-31E5-3D86C9085C2C">
+<createdBy>dirbashi</createdBy>
+<createdTime>2021-04-25 11:06:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[drug name]]></commentInRDBMS>
+<ownerDesignName>ad_logical</ownerDesignName>
+<engineerTo>
+<item key="81D3E873-742D-0C0C-A168-7541869E6A17" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="drug_instructions" id="6ED355F0-FA9F-DBF7-C41B-02376783E625">
+<createdBy>dirbashi</createdBy>
+<createdTime>2021-04-25 11:06:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[drug instructions]]></commentInRDBMS>
+<ownerDesignName>ad_logical</ownerDesignName>
+<engineerTo>
+<item key="81D3E873-742D-0C0C-A168-7541869E6A17" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="drug_qty" id="9718D79A-4FAD-4C56-1E10-ECB20A3C7841">
+<createdBy>dirbashi</createdBy>
+<createdTime>2021-04-25 11:16:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[drug quantity]]></commentInRDBMS>
+<ownerDesignName>ad_logical</ownerDesignName>
+<engineerTo>
+<item key="81D3E873-742D-0C0C-A168-7541869E6A17" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="drug_cost" id="FC0ABE27-6381-7F39-E8EF-C01B5E8C6E39">
+<createdBy>dirbashi</createdBy>
+<createdTime>2021-04-25 11:17:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[drug cost]]></commentInRDBMS>
+<ownerDesignName>ad_logical</ownerDesignName>
+<engineerTo>
+<item key="81D3E873-742D-0C0C-A168-7541869E6A17" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C2817AC0-8DA1-E036-8451-36C10A372022" name="DRUG PK">
+<createdBy>dirbashi</createdBy>
+<createdTime>2021-04-25 11:07:22 UTC</createdTime>
+<ownerDesignName>ad_logical</ownerDesignName>
+<engineerTo>
+<item key="81D3E873-742D-0C0C-A168-7541869E6A17" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>04F2B5D8-766D-F0FF-E222-D34D439AFFEA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

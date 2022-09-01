@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="AB738EC7-C183-45EF-4B0C-2EE92AD6A044" name="CLINIC" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="CD88D6F1-0468-1323-7576-4F233316C271" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="567224F1-76B3-5AA3-6BD0-F9578CCDFFC6" name="DRUG" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="CD88D6F1-0468-1323-7576-4F233316C271" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="10B97A35-2AD6-F630-AB20-EF3A2CFFCF08" name="OWNER" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="CD88D6F1-0468-1323-7576-4F233316C271" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="FE3D0C08-84F0-298A-A8C2-58175FB87B44" name="PET" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="CD88D6F1-0468-1323-7576-4F233316C271" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="BD3ADD70-4F02-CFC0-C28D-8DF5AE94DDE7" name="PRESCRIPTIONS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="CD88D6F1-0468-1323-7576-4F233316C271" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="BC46315B-F126-3EB2-CD21-DB690E9A551D" name="SERVICE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="CD88D6F1-0468-1323-7576-4F233316C271" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="69FE4A48-58AA-CBEA-22DC-3681F3CFBA29" name="VET" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="CD88D6F1-0468-1323-7576-4F233316C271" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="87335B6C-6A14-0195-363E-CC990CB2A139" name="VISIT" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="CD88D6F1-0468-1323-7576-4F233316C271" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>
